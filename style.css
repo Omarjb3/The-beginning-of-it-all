@@ -1,6 +1,12 @@
-.header {
-  background-color: navy;
+* {
   font-family: "Arial Black", sans-serif;
+}
+
+.main {
+  background-color: #1f2937;
+}
+
+.header {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -8,18 +14,65 @@
 }
 
 .logo {
-    font-size: 10px;
-    color: whitesmoke;
-    margin-left: 10%;
-    margin-top: 10px;
+  font-size: 10px;
+  color: whitesmoke;
+  margin-left: 10%;
+  margin-top: 10px;
 }
 
 .header-buttons {
-    font-size: 8px;
-    color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-right: 10%;
-    margin-top: 10px;
+  font-size: 8px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: 10%;
+  margin-top: 3px;
+}
+
+.hero {
+  margin-top: 115px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-title {
+  color: whitesmoke;
+  font-size: 25px;
+  margin-left: 10%;
+  margin-bottom: 5px;
+}
+
+.hero-text {
+  color: rgb(200, 200, 200);
+  font-size: 12px;
+  margin-left: 10%;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-family: "Arial", sans-serif;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+
+.placeholder {
+  font-family: "san-francisco", sans-serif;
+  font-size: 12px;
+  background-color: grey;
+  color: white;
+  box-sizing: content-box;
+  margin: 0 10% 0 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.hero-copy {
+  margin-left: 10%;
+}
+.hero-title,
+.hero-text {
+  margin-right: 0%;
 }
