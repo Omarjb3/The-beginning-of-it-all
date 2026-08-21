@@ -1,0 +1,25 @@
+.header {
+  background-color: navy;
+  font-family: "Arial Black", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.logo {
+    font-size: 10px;
+    color: whitesmoke;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.header-buttons {
+    font-size: 8px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 10%;
+    margin-top: 10px;
+}
